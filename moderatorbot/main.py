@@ -16,7 +16,7 @@ intents.members = True
 intents.message_content = True
 intents.reactions = True
 
-activity = discord.Activity(type=discord.ActivityType.watching, name="Lorem Ipsum")
+activity = discord.Activity(type=discord.ActivityType.watching, name="That Ship Over There")
 client = discord.Client(intents=intents, activity=activity)
 starred_messages = set()
 tree = discord.app_commands.CommandTree(client)
