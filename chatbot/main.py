@@ -46,4 +46,4 @@ async def clear(interaction: discord.Interaction):
     chat_histories[interaction.user.id].clear()
     await interaction.response.send_message("Chat history cleared!")
 
-client.run(os.getenv('DISCORD_TOKEN'))
+client.run(os.getenv('CHAT_TOKEN'))
